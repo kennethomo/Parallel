@@ -1,0 +1,14 @@
+Sat Feb  8 18:09:22 CST 2020
+Vector addition v1.1
+vector elements: 10000000
+compute time: 0.00918 s
+verification passed
+Vector addition v1.1
+vector elements: 100000000
+compute time: 0.09064 s
+verification passed
+Vector addition v1.1
+vector elements: 1000000000
+compute time: 0.90597 s
+verification passed
+Sat Feb  8 18:09:32 CST 2020

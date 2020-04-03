@@ -1,0 +1,87 @@
+Wed Mar 11 13:40:51 CDT 2020
+Collatz v1.3
+upper bound: 68000000
+threads: 1
+compute time: 25.86321 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 4
+compute time: 6.97174 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 8
+compute time: 3.88261 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 12
+compute time: 2.59219 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 16
+compute time: 2.08395 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 20
+compute time: 1.80391 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 24
+compute time: 1.48567 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 28
+compute time: 1.33472 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 32
+compute time: 1.28146 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 36
+compute time: 1.11542 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 40
+compute time: 0.99858 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 44
+compute time: 1.13638 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 48
+compute time: 0.91910 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 52
+compute time: 0.95538 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 56
+compute time: 0.96887 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 60
+compute time: 0.98263 s
+longest sequence: 950 elements
+Collatz v1.3
+upper bound: 68000000
+threads: 64
+compute time: 0.91350 s
+longest sequence: 950 elements
+Wed Mar 11 13:41:47 CDT 2020

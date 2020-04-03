@@ -1,0 +1,30 @@
+Sat Feb  8 18:23:54 CST 2020
+Maximal Independent Set v1.4
+input: /home1/00976/burtsche/Graphs/cit-Patents.egr
+nodes: 3774768
+edges: 33037894
+compute time: 0.23414 s
+elements in set: 1711507 (45.3%)
+verification passed
+Maximal Independent Set v1.4
+input: /home1/00976/burtsche/Graphs/kron_g500-logn21.egr
+nodes: 2097152
+edges: 182081864
+compute time: 0.16025 s
+elements in set: 1548624 (73.8%)
+verification passed
+Maximal Independent Set v1.4
+input: /home1/00976/burtsche/Graphs/uk-2002.egr
+nodes: 18520486
+edges: 523574516
+compute time: 0.78885 s
+elements in set: 10547601 (57.0%)
+verification passed
+Maximal Independent Set v1.4
+input: /home1/00976/burtsche/Graphs/USA-road-d.USA.egr
+nodes: 23947347
+edges: 57708624
+compute time: 0.58150 s
+elements in set: 10765151 (45.0%)
+verification passed
+Sat Feb  8 18:24:01 CST 2020

@@ -1,0 +1,29 @@
+Wed Feb 26 14:40:44 CST 2020
+TACC: Starting up job 2720206
+TACC: Starting parallel tasks...
+Collatz v1.3
+upper bound: 680000
+processes: 1
+compute time: 0.18920 s
+longest sequence: 509 elements
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2720206
+TACC: Starting parallel tasks...
+Collatz v1.3
+upper bound: 6800000
+processes: 1
+compute time: 2.23782 s
+longest sequence: 665 elements
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2720206
+TACC: Starting parallel tasks...
+Collatz v1.3
+upper bound: 68000000
+processes: 1
+compute time: 25.86727 s
+longest sequence: 950 elements
+ 
+TACC: Shutdown complete. Exiting.
+Wed Feb 26 14:41:16 CST 2020

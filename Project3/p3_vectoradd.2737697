@@ -1,0 +1,17 @@
+Thu Mar  5 18:26:15 CST 2020
+Vector addition v1.1
+vector elements: 10000000
+threads: 24
+compute time: 0.00777 s
+verification passed
+Vector addition v1.1
+vector elements: 100000000
+threads: 24
+compute time: 0.04012 s
+verification passed
+Vector addition v1.1
+vector elements: 1000000000
+threads: 24
+compute time: 0.41050 s
+verification passed
+Thu Mar  5 18:26:24 CST 2020

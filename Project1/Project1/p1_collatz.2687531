@@ -1,0 +1,14 @@
+Sat Feb  8 18:16:30 CST 2020
+Collatz v1.3
+upper bound: 680000
+compute time: 0.18772 s
+longest sequence: 509 elements
+Collatz v1.3
+upper bound: 6800000
+compute time: 2.21787 s
+longest sequence: 665 elements
+Collatz v1.3
+upper bound: 68000000
+compute time: 25.55482 s
+longest sequence: 950 elements
+Sat Feb  8 18:16:58 CST 2020

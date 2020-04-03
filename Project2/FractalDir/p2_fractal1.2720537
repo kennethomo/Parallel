@@ -1,0 +1,38 @@
+Wed Feb 26 16:43:25 CST 2020
+TACC: Starting up job 2720537
+TACC: Starting parallel tasks...
+Fractal v2.0
+width: 512
+frames: 64
+processes 1
+compute time: 2.29070 s
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2720537
+TACC: Starting parallel tasks...
+Fractal v2.0
+width: 512
+frames: 128
+processes 1
+compute time: 5.16611 s
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2720537
+TACC: Starting parallel tasks...
+Fractal v2.0
+width: 1024
+frames: 64
+processes 1
+compute time: 9.12126 s
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2720537
+TACC: Starting parallel tasks...
+Fractal v2.0
+width: 1024
+frames: 128
+processes 1
+compute time: 20.62428 s
+ 
+TACC: Shutdown complete. Exiting.
+Wed Feb 26 16:44:06 CST 2020
