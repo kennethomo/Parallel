@@ -28,9 +28,12 @@ Author: Martin Burtscher
 
 static int collatz(const long bound, const int threads)
 {
-  #pragma omp parallel for default(none) shared() num_threads(threads) SCHEDULE
-  // compute sequence lengths
   int maxlen = 0;
+
+  #pragma omp parallel for num_threads(threads) \
+      default(none) shared(bound) private(maxlen) reduction(?:maxlen) SCHEDULE// not sure what ot put here
+
+  // compute sequence lengths
   for (long i = 1; i < bound; i++) {
     long val = i;
     int len = 1;
@@ -56,7 +59,8 @@ int main(int argc, char *argv[])
   if (argc != 2) {fprintf(stderr, "USAGE: %s upper_bound\n", argv[0]); exit(-1);}
   const long bound = atol(argv[1]);
   if (bound < 2) {fprintf(stderr, "ERROR: upper_bound must be at least 2\n"); exit(-1);}
-  printf("upper bound: %ld\n", bound);4
+  printf("upper bound: %ld\n", bound);
+
   //thread count for cmd line
   const int threads = atoi(argv[2]);
   if (threads < 1) {fprintf(stderr, "ERROR: thread_count must be at least 1\n"); exit(-1);}
