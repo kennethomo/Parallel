@@ -35,7 +35,7 @@ static void fractal(const int width, const int frames, unsigned char* const pic,
   const double yMid = 0.60538436;
 
   // compute pixels of each frame
-  for (int frame = 0; frame < frames; frame++) {  // frames
+  for (int frame = 0; frame < frames; frame++) {  // frames FRACTAL1
     double delta = Delta * pow(0.981,frame);//take care of loop dependency
     const double xMin = xMid - delta;
     const double yMin = yMid - delta;

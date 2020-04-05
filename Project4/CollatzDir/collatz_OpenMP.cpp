@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
   gettimeofday(&start, NULL);
 
   // execute timed code
-  const int maxlen = collatz(bound);
+  const int maxlen = collatz(bound,threads);
 
   // end time
   gettimeofday(&end, NULL);
