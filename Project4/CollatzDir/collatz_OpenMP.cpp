@@ -26,12 +26,14 @@ Author: Martin Burtscher
 #include <algorithm>
 #include <sys/time.h>
 
+//THIS IS A COMMENT HAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAH
+
 static int collatz(const long bound, const int threads)
 {
   int maxlen = 0;
 
   #pragma omp parallel for num_threads(threads) \
-      default(none) shared(bound) private(maxlen) reduction(?:maxlen) SCHEDULE// not sure what to put here
+      default(none) shared(bound) private(maxlen) reduction(max:maxlen) SCHEDULE// not sure what to put here
 
   // compute sequence lengths
   for (long i = 1; i < bound; i++) {

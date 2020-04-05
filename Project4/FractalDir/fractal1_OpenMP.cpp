@@ -35,7 +35,7 @@ static void fractal(const int width, const int frames, unsigned char* const pic,
   const double yMid = 0.60538436;
 
   #pragma omp parallel for default(none) shared(width,frames, pic) \
-      private(frame) num_threads(threads) SCHEDULE 
+      private(frame) num_threads(threads) SCHEDULE
   // compute pixels of each frame
   for (int frame = 0; frame < frames; frame++) {  // frames
     double delta = Delta * pow(0.981,frame);//take care of loop dependency
@@ -89,7 +89,7 @@ int main(int argc, char *argv[])
   gettimeofday(&start, NULL);
 
   // execute timed code
-  fractal(width, frames, pic);
+  fractal(width, frames, pic, threads); //needs threads to be passed
 
   // end time
   gettimeofday(&end, NULL);
