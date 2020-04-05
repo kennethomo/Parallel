@@ -31,7 +31,7 @@ static int collatz(const long bound, const int threads)
   int maxlen = 0;
 
   #pragma omp parallel for num_threads(threads) \
-      default(none) shared(bound) private(maxlen) reduction(?:maxlen) SCHEDULE// not sure what ot put here
+      default(none) shared(bound) private(maxlen) reduction(?:maxlen) SCHEDULE// not sure what to put here
 
   // compute sequence lengths
   for (long i = 1; i < bound; i++) {
@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
   gettimeofday(&start, NULL);
 
   // execute timed code
-  const int maxlen = collatz(bound);
+  const int maxlen = collatz(bound, threads);//need threads to be passed
 
   // end time
   gettimeofday(&end, NULL);
